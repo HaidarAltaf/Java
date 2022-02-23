@@ -1,0 +1,28 @@
+package com.qa.constructors;
+
+public class person {
+	private String fName;
+	private String lName;
+	private String favFood;
+	int age; 
+	
+	public String getfName() {
+		return fName;
+	}
+	
+	//default
+	public person() {
+		
+	}
+	//All argument constructor
+	public person(String fName, String lName, String favFood, int age) {
+		this.fName = fName;
+		this.lName = lName;
+		this.favFood = favFood;
+		this.age = age;
+	}
+	public person(String fName, String favFood) {
+		this.fName = fName;
+		this.favFood = favFood;
+	}
+}

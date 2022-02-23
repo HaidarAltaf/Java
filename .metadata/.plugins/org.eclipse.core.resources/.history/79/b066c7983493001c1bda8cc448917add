@@ -1,0 +1,28 @@
+package vehicles;
+
+public class classics extends Vehicles{
+	private int year;
+
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	public classics(String name, double price, boolean running, int id, int year) {
+		super(name, price, running, id);
+		this.year = year;
+	}
+	@Override
+	public String toString() {
+		return "Name= " + getName()
+				+ ", Price= " + getPrice() 
+				+ ", is Running? " + isRunning() 
+				+ ", classics: year= " + year 
+				+ ", Id: " + getId();
+	}
+	
+	
+	
+}

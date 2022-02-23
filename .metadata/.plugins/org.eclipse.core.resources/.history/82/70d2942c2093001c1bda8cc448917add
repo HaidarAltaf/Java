@@ -1,0 +1,31 @@
+package vehicles;
+
+public class luxury extends Garage{
+	private boolean elite;
+
+	public luxury(String make, int price, boolean runner, boolean elite) {
+		this.getPrice();
+		this.getName();
+		this.getElite();
+		this.isRunning();
+	}
+
+	public boolean getElite() {
+		return elite;
+	}
+
+	public void setElite(boolean elite) {
+		this.elite = elite;
+	}
+
+	@Override
+	public String toString() {
+		return "luxury? " + elite + ", isRunning()=" + isRunning() + ", getPrice()=" + getPrice() + ", getName()="
+				+ getName() + ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode();
+	}
+
+	
+	}
+	
+

@@ -1,0 +1,9 @@
+//package stringmanipulation;
+//
+//public class runner {
+//	public static void main(String[] args) {
+//		manipulation One = new manipulation("TODAY IT IS SUNNY");
+//		manipulation Two = new manipulation("YESTERDAY IT WAS RAINING");
+//		
+//	}
+//}

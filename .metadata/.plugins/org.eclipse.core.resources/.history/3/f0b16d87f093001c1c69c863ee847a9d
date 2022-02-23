@@ -1,0 +1,20 @@
+package com.qa.testdrivendevelopment;
+
+public class questions {
+	public static void main(String[] args) {
+		greetingExample("John");
+		greetingExample("Matt");
+		greetingExample("Angelica");
+	}
+	
+	public static String greetingExample(String a) {
+		 System.out.println("Hi " +  a);
+		 return a;
+	}
+	
+	public void multiChar(String a) {
+		
+	}
+	
+	
+}

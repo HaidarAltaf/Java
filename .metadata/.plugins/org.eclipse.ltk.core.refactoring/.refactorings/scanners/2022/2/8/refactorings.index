@@ -1,0 +1,6 @@
+1645611609207	Rename type 'calculator'
+1645611807294	Rename type 'scanner'
+1645613154672	Encapsulate field 'addition'
+1645613180553	Encapsulate field 'subtraction'
+1645613186906	Encapsulate field 'multiplication'
+1645613196243	Encapsulate field 'division'

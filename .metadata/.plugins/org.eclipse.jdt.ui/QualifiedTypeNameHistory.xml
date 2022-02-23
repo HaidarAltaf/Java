@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="stringmanipulation.Doggo"/>
+    <fullyQualifiedTypeName name="polymorphism.santander"/>
+    <fullyQualifiedTypeName name="polymorphism.Composers"/>
+    <fullyQualifiedTypeName name="polymorphism.Mozart"/>
+    <fullyQualifiedTypeName name="interfaces.Power"/>
+    <fullyQualifiedTypeName name="interfaces.Speed"/>
+    <fullyQualifiedTypeName name="interfaces.Valves"/>
+    <fullyQualifiedTypeName name="vehicles.luxury"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="vehicles.Garage"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="maven.BlackJack"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+</qualifiedTypeNameHistroy>

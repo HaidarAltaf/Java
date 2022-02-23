@@ -1,0 +1,6 @@
+package com.qa.constructors;
+
+public class classconstructor {
+	private String fName;
+	private 
+}

@@ -1,0 +1,9 @@
+package Arrays;
+
+public class EnhancedForLoops {
+	public void printArray(String[] arrayofstrings) {
+	    for(String words : arrayofstrings) {
+	        System.out.println(words);
+	    }
+	}
+}

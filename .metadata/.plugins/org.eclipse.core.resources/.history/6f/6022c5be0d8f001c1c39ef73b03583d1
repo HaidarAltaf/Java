@@ -1,0 +1,13 @@
+package com.qa.constructors;
+
+public class classconstructor {
+	private String fName;
+	private String lName;
+	private String favFood;
+	int age; 
+	
+	public classconstructor() {
+		
+	}
+	
+}

@@ -1,0 +1,35 @@
+package Arrays;
+
+public class EnhancedForLoops {
+	public static void main(String[] args) {
+		// System.out.println(Iter("why"));
+		iufeg(67);
+	}
+
+	// exercise 1 - failed
+	public static void IterateThroughString(String[] stringArray) {
+		for (String a : stringArray) {
+			System.out.println(a);
+		}
+	}
+
+	// exercise 2 - failed
+	public void IntegerArray(int[] intArray) {
+		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+		for (int i = 0; i < intArray.length; i++) {
+			for (int j : intArray) {
+				System.out.println(j);
+			}
+		}
+	}
+
+	// exercise 3 - 
+	public static boolean iufeg(int a) {	
+		if(a % 2 == 0) {
+			return true;
+			} else {
+		return false;
+		}
+	}
+	
+}

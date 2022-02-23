@@ -1,0 +1,15 @@
+package BlackJackRunner;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import maven.BlackJack;
+
+public class runner {
+	
+	@Test
+	public void addBlackJack() {
+		assertEquals(21, BlackJack.play(21, 20));
+	}
+}

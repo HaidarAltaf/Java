@@ -1,0 +1,14 @@
+package vehicles;
+
+public class luxury extends Garage{
+	private String elite;
+
+	public String getElite() {
+		return elite;
+	}
+
+	public void setElite(String elite) {
+		this.elite = elite;
+	}
+	
+}

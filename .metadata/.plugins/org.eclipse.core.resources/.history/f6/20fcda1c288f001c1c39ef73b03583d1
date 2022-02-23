@@ -1,0 +1,43 @@
+package Arrays;
+
+public class arraydemo {
+	public static void main(String[] args) {		
+		//SINGLE DIMENTIONAL ARRAYS
+		//first method, empty (single dimension)
+		int[] ageArray;
+				
+		//second method, creates array with values
+		int[] array = {24,35,65,375,245,5};
+		String[] stringArray = {"but", "why", "why", "you", "do", "this"};
+		//printing array
+		for(String s : stringArray) {
+			System.out.println(s);
+		}
+		
+		
+		
+		//third method, creates array of specific size
+		int[] arraySize = new int[5];
+		//adding values to array
+		arraySize[0] = 20;
+		
+		//MULTI DIMENTIONAL ARRAYS
+		// first method
+		int[][] multiArray; 
+		
+		//second method
+		int[][] arrayMulti = {
+				{54,636,7543}, 
+				{454,653}, 
+				{4252,653,245},
+				{7}
+				};
+		
+		//third method	
+		// first [] is number of arrays (this scenario = 3)
+		// second [] is number of values
+		int[][] mArraySize = new int[3][65]; 
+		///adding values - can't use 3 cause 0 = 1, 1 = 2, 2 = 3
+		mArraySize[2][4] = 7576;
+	}
+}

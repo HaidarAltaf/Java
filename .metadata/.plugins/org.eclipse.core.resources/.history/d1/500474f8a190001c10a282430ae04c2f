@@ -1,0 +1,7 @@
+package polymorphism;
+
+public class Mozart extends Composers{
+	public void songOne() {
+		System.out.println("Tempo di minuetto");
+	}
+}

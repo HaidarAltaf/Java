@@ -1,0 +1,18 @@
+package Arrays;
+
+public class EnhancedForLoops {
+	public static void main(String[] args) {
+		//System.out.println(Iter("why"));
+		
+	}
+	//exercise 1 failed
+	public static void Iter(String[] stringArray) {
+		for(String a : stringArray) {
+			System.out.println(a);
+		}
+	}
+	//exercise 2
+	
+}
+
+

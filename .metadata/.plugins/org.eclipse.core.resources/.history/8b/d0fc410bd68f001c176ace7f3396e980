@@ -1,0 +1,15 @@
+package Arrays;
+
+public class EnhancedForLoops {
+	public static void main(String[] args) {
+		System.out.println(("why"));
+		
+	}
+	public static void Iter(String[] stringArray) {
+		for(String a : stringArray) {
+			System.out.println(a);
+		}
+	}
+}
+
+

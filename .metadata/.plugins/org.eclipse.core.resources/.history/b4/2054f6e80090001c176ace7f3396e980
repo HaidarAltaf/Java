@@ -1,0 +1,25 @@
+package stringmanipulation;
+
+public class ParentAndChildren {
+	private boolean mistake = true;
+	private String height;
+	public void dadJoke() {
+		System.out.println("I'm afraid for the calendar. Its days are numbered.");
+	}
+	
+	public boolean getMistake() {
+		return mistake;
+	}
+	public void setMistake(boolean mistake) {
+		this.mistake = mistake;
+	}
+
+	public String getHeight() {
+		return height;
+	}
+	public void setHeight(String height) {
+		this.height = height;
+	}
+	
+	public class child extends Parent
+}

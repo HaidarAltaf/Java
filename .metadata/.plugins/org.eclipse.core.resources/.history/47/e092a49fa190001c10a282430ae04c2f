@@ -1,0 +1,18 @@
+package runner;
+
+import polymorphism.Beethoven;
+import polymorphism.Composers;
+
+public class runnerComposers {
+	public static void main(String[] args) {
+		Beethoven beethoven = new Beethoven();
+		beethoven.songOne();
+		
+		Composers composer = new Beethoven();
+		((Beethoven)composer).songOne();
+		
+		Object object = new Beethoven();
+		((Beethoven)object).songOne();
+
+	}
+}
