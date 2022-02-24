@@ -1,79 +1,93 @@
 package calculator;
 
-import java.io.InputStream;
+import java.util.Scanner;
 
 public class Calculator {
+
+	    static float addition(float num1, float num2) {
+	        return num1 + num2;
+	    }
+
+	    static float subtraction(float num1, float num2) {
+	        return num1 - num2;
+	    }
+
+	     static float multiplication(float num1, float num2) {
+	        return num1 * num2;
+	    }
+
+	    static float division(float num1, float num2) {
+	        return num1 / num2;
+	    }
 	
-	private Double addition; 
-	private Double subtraction;
-	private Double multiplication;
-	private Double division;
-	
-	public Calculator(InputStream in) {
-		getAddition();
-		getSubtraction();
-		getMultiplication();
-		getDivision();
-	}
 
-	public static double addition(double first, double second) {
-		double add = first + second;
-		System.out.println(add);
-		return add;
-	}
+	    Scanner newScanner = new Scanner(System.in);
 
-	public static double subtraction(double a, double b) {
-		double subtract = a - b;
-		System.out.println(subtract);
-		return subtract;
-	}
+	    public void menu() {
+	        boolean menuOptions = true;
+	        String menuNumber = "";
+	        float num1;
+	        float num2;
 
-	public static double multiplication(double a, double b) {
-		double multiply = a * b;
-		System.out.println(multiply);
-		return multiply;
-	}
+	        while (menuOptions) {
+	            System.out.println("=".repeat(60));
+	            System.out.println("1. Addition");
+	            System.out.println("2. Subtraction");
+	            System.out.println("3. Multiplication");
+	            System.out.println("4. Division");
+	            System.out.println("=".repeat(60));
+	            System.out.println("0. Exit Program");
+	            System.out.println("=".repeat(60));
 
-	public static double division(double a, double b) {
-		double divide = a / b;
-			if(a < b || b == 0) {
-				System.out.println("Error with calculation");
-			}
-			else {
-				System.out.println("THE CALCULATION MUST BE CORRECT: " + divide);
-			}
-		return divide;
-	}
 
-	public Double getDivision() {
-		return division;
-	}
+	            System.out.println("\nPick a number to execute an operation: ");
+	            menuNumber = newScanner.nextLine();
 
-	public void setDivision(Double divide) {
-		this.division = divide;
-	}
-
-	public Double getAddition() {
-		return addition;
-	}
-
-	public void setAddition(Double addition) {
-		this.addition = addition;
-	}
-
-	public Double getSubtraction() {
-		return subtraction;
-	}
-
-	public void setSubtraction(Double subtraction) {
-		this.subtraction = subtraction;
-	}
-
-	public Double getMultiplication() {
-		return multiplication;
-	}
-
-	public void setMultiplication(Double multiplication) {
-		this.multiplication = multiplication;
-	}
+	            switch (menuNumber) {
+	                case "1":
+	                    System.out.println("Enter your first number: ");
+	                    num1 = newScanner.nextFloat();
+	                    System.out.println("Enter your second number: ");
+	                    num2 = newScanner.nextFloat();
+	                    newScanner.nextLine();
+	                    System.out.print("Answer: ");
+	                    System.out.println(Calculator.addition(num1, num2) + "\n");
+	                    break;
+	                case "2":
+	                    System.out.println("Enter your first number: ");
+	                    num1 = newScanner.nextFloat();
+	                    System.out.println("Enter your second number: ");
+	                    num2 = newScanner.nextFloat();
+	                    newScanner.nextLine();
+	                    System.out.print("Answer: ");
+	                    System.out.println(Calculator.subtraction(num1, num2) + "\n");
+	                    break;
+	                case "3":
+	                    System.out.println("Enter your first number: ");
+	                    num1 = newScanner.nextFloat();
+	                    System.out.println("Enter your second number: ");
+	                    num2 = newScanner.nextFloat();
+	                    newScanner.nextLine();
+	                    System.out.print("Answer: ");
+	                    System.out.println(Calculator.multiplication(num1, num2) + "\n");
+	                    break;
+	                case "4":
+	                    System.out.println("Enter your first number: ");
+	                    num1 = newScanner.nextFloat();
+	                    System.out.println("Enter your second number: ");
+	                    num2 = newScanner.nextFloat();
+	                    newScanner.nextLine();
+	                    System.out.print("Answer: ");
+	                    System.out.println(Calculator.division(num1, num2) + "\n");
+	                    break;
+	                case "0":
+	                    menuOptions = false;
+	                    System.out.println("Program Ending");
+	                    break;
+	                default:
+	                    System.out.println("\nWrong input, try again.");
+	                    break;
+	            }
+    }
+  }
 }

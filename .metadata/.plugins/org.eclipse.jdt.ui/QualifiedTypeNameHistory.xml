@@ -16,4 +16,8 @@
     <fullyQualifiedTypeName name="maven.BlackJack"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="calculator.scanner"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="calculator.Calculator"/>
+    <fullyQualifiedTypeName name="EnumRunner.runner"/>
 </qualifiedTypeNameHistroy>
