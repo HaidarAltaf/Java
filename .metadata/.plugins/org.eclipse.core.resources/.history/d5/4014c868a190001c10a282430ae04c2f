@@ -1,7 +1,0 @@
-package polymorphism;
-
-public class Beethoven {
-	public void songOne() {
-		System.out.println("Moonlight sonata");
-	}
-}

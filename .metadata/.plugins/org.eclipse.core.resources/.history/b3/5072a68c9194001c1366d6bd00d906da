@@ -1,4 +1,0 @@
-module maven {
-	requires jdk.incubator.vector;
-	requires junit;
-}

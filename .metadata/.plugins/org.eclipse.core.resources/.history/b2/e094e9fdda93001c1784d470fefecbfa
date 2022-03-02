@@ -1,7 +1,0 @@
-package maven;
-
-public class BlackJackRunner {
-	public static void main(String[] args) {
-		play(21, 14);
-	}
-}

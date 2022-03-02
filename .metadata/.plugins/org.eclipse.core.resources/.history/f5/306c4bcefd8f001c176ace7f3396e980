@@ -1,8 +1,0 @@
-package stringmanipulation;
-
-public class runner {
-	public static void main(String[] args) {
-		Doggo JohnWicks = new Doggo("dog", "yes very", "yes", true, 2);
-	}
-	}
-

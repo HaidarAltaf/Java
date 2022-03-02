@@ -1,7 +1,0 @@
-package polymorphism;
-
-public class Mozart {
-	public void songOne() {
-		System.out.println("Tempo di minuetto");
-	}
-}
