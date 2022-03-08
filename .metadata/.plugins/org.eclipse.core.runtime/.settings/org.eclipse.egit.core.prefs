@@ -3,4 +3,5 @@ GitRepositoriesView.GitDirectories.relative=C\:\\Users\\haida\\git\\Java\\.git;.
 RepositoryGroups.uuids=
 RepositorySearchDialogDeepSearch=true
 RepositorySearchDialogSearchPath=C\:\\Users\\haida\\git
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

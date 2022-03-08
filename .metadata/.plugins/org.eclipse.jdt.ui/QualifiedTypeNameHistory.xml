@@ -29,8 +29,6 @@
     <fullyQualifiedTypeName name="projectExercise.BackendDev"/>
     <fullyQualifiedTypeName name="projectExercise.FrontendDev"/>
     <fullyQualifiedTypeName name="projectExercise.Project"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="projectExercise.Developer"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -44,4 +42,16 @@
     <fullyQualifiedTypeName name="DataAccessObject.MovieDAO"/>
     <fullyQualifiedTypeName name="domain.Movie"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Person.Pet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="generic.CatStuff"/>
+    <fullyQualifiedTypeName name="domain.Cat"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package scannersRunner;
-
-import java.util.Scanner;
-
-public class runner {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(6);
-	}
-}
